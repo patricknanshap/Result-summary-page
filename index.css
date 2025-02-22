@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(194, 192, 192);
+    min-height: 100vh;
+}
+
+.container {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 254, 254);
+    width: 700px;
+    height: 400px;
+}
+
+.container {
+    margin-top: 100px;
+    margin-left: 350px;
+    border-radius: 12px;
+
+}
+
+.first {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding-left: 10px;
+    width: 350px;
+    height: 400px;
+    padding-top: 40px;
+    border-radius: 12px;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: beige;
+}
+
+.second {
+    width: 350px;
+    height: 400px;
+    padding-left: 50px;
+    padding-top: 40px;
+    border-radius: 12px;
+}
+
+.boxmodel {
+    margin-top: px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-left: px;
+}
+
+.item1 {
+    background-color: rgb(255, 217, 223);
+    display: ;
+}
+
+.item2 {
+    background-color: rgb(255, 232, 190);
+}
+
+.item3 {
+    background-color: rgb(208, 255, 255);
+}
+
+.item4 {
+    background-color: rgb(221, 221, 255);
+}
+
+button {
+    margin-top: 20px;
+    width: 90%;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(51, 47, 47);
+    border: none;
+    margin-left: px;
+}
+
+button p {
+    color: rgb(221, 203, 203);
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.circle {
+    padding: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    box-shadow: inset 1px 1px 12px 0px hsla(256, 72%, 46%, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 95px;
+    margin-top: 10px;
+
+}
+
+.bigscore {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+
+/*.circle {
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(ellipse at center,
+            rgba(59, 105, 120, 1)0% rgba(49, 85, 97, 1)70% rgba(0, 128, 172, 0)78.3%);
+    position: relative;
+    margin: 0px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.circle h1 {
+    height: 150px;
+    line-height: ;
+    padding-right: 55px;
+    text-align: center;
+    text-shadow: 0.5px, 0.5px, 1px rgba(0, 0, 0, 0.3);
+}
+
+.circle ::before {
+    content: "";
+    width: 75px;
+    height: 150px;
+    float: left;
+    shape-outside: polygon(0 0,
+            98% 0,
+            50% 6%,
+            23.4% 17.3%,
+            6% 32.6%,
+            0 50%,
+            6% 65.6%,
+            23.4% 82.7%,
+            50% 94%,
+            98% 100%,
+            0 100%);
+    shape-margin: 7%;
+}
+
+.circle h1 ::before {
+    content: "";
+    width: 75px;
+    height: 150px;
+    float: right;
+    shape-outside: polygon(2% 0,
+            100% 0%,
+            100% 100%,
+            2% 100%,
+            50 94%,
+            76.6% 82.7%,
+            94% 65.6%,
+            100% 50%,
+            94% 32.6%,
+            76.6 17.3%,
+            50% 6%);
+    shape-margin: 7%;
+}*/
